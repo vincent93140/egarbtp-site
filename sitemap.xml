@@ -2,6 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://egarbtp.fr/</loc>
+    <lastmod>2026-11-05</lastmod>
     <image:image><image:loc>https://egarbtp.fr/assets/realisation-egar-01.jpg</image:loc><image:caption>Cuisine équipée</image:caption></image:image>
     <image:image><image:loc>https://egarbtp.fr/assets/realisation-egar-02.jpg</image:loc><image:caption>Salle de bains</image:caption></image:image>
     <image:image><image:loc>https://egarbtp.fr/assets/realisation-egar-03.jpg</image:loc><image:caption>Rénovation intérieure</image:caption></image:image>
@@ -13,12 +14,19 @@
     <image:image><image:loc>https://egarbtp.fr/assets/realisation-egar-09.jpg</image:loc><image:caption>Toilettes suspendues</image:caption></image:image>
     <image:image><image:loc>https://egarbtp.fr/assets/realisation-egar-10.jpg</image:loc><image:caption>Cuisine aménagée</image:caption></image:image>
   </url>
-<url><loc>https://egarbtp.fr/renovation-appartement-paris.html</loc></url>
-<url><loc>https://egarbtp.fr/peinture-finitions-paris.html</loc></url>
-<url><loc>https://egarbtp.fr/plomberie-paris.html</loc></url>
-<url><loc>https://egarbtp.fr/installation-electrique-paris.html</loc></url>
-<url><loc>https://egarbtp.fr/maconnerie-platrerie-paris.html</loc></url>
+<url><loc>https://egarbtp.fr/renovation-appartement-paris.html</loc>
+    <lastmod>2026-11-05</lastmod></url>
+<url><loc>https://egarbtp.fr/peinture-finitions-paris.html</loc>
+    <lastmod>2026-11-05</lastmod></url>
+<url><loc>https://egarbtp.fr/plomberie-paris.html</loc>
+    <lastmod>2026-11-05</lastmod></url>
+<url><loc>https://egarbtp.fr/installation-electrique-paris.html</loc>
+    <lastmod>2026-11-05</lastmod></url>
+<url><loc>https://egarbtp.fr/maconnerie-platrerie-paris.html</loc>
+    <lastmod>2026-11-05</lastmod></url>
 <url><loc>https://egarbtp.fr/isolation-murs-interieur-paris.html</loc><lastmod>2026-11-05</lastmod></url>
-<url><loc>https://egarbtp.fr/mentions-legales.html</loc></url>
-<url><loc>https://egarbtp.fr/confidentialite.html</loc></url>
+<url><loc>https://egarbtp.fr/mentions-legales.html</loc>
+    <lastmod>2026-11-05</lastmod></url>
+<url><loc>https://egarbtp.fr/confidentialite.html</loc>
+    <lastmod>2026-11-05</lastmod></url>
 </urlset>
