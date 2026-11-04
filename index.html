@@ -232,12 +232,12 @@
       <a class="contact-line" href="mailto:egar@outlook.fr"><span>✉</span><div><small>EMAIL</small><strong>egar@outlook.fr</strong></div></a>
       <div class="contact-line"><span>⌖</span><div><small>ADRESSE</small><strong>17 avenue Gambetta, 75020 Paris</strong></div></div>
     </div>
-    <form class="contact-form" id="quote-form" name="devis-egar" method="POST" action="https://formsubmit.co/egar@outlook.fr" enctype="multipart/form-data">
-      <input type="hidden" name="_subject" value="Nouvelle demande de devis — EGAR SARL">
-      <input type="hidden" name="_next" value="https://egarbtp.fr/merci.html">
-      <input type="hidden" name="_template" value="table">
-      <input type="hidden" name="_url" value="https://egarbtp.fr/">
-      <input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-10000px;width:1px;height:1px;opacity:0">
+    <form class="contact-form" id="quote-form" name="devis-egar" method="POST" action="https://api.web3forms.com/submit">
+      <input type="hidden" name="access_key" value="7b2dcecf-c994-447f-a18b-26d3a90361dd">
+      <input type="hidden" name="subject" value="Nouvelle demande de devis — EGAR SARL">
+      <input type="hidden" name="from_name" value="Site EGAR BTP">
+      <input type="hidden" name="redirect" value="https://egarbtp.fr/merci.html">
+      <input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" aria-hidden="true" style="display:none">
       <h3>Demander un devis</h3><p>Les champs marqués * sont obligatoires. Votre demande est envoyée à EGAR par e-mail.</p>
       <label>Nom et prénom *<input name="name" required maxlength="150" autocomplete="name" placeholder="Votre nom et prénom"></label>
       <label>Adresse e-mail *<input type="email" name="email" required maxlength="254" autocomplete="email" placeholder="vous@exemple.fr"></label>
@@ -245,8 +245,6 @@
       <label>Type de travaux souhaités<select name="work-type"><option value="">Sélectionnez une prestation</option><option>Rénovation complète d’appartement</option><option>Peinture et finitions</option><option>Plomberie</option><option>Installation électrique</option><option>Maçonnerie et plâtrerie</option><option>Isolation des murs par l’intérieur</option><option>Menuiserie</option><option>Autre projet / plusieurs métiers</option></select></label>
       <label>Adresse ou ville du chantier<input name="location" maxlength="250" autocomplete="street-address" placeholder="Adresse, arrondissement ou commune"></label>
       <label>Description détaillée du projet *<textarea name="message" required maxlength="10000" rows="5" placeholder="Pièces concernées, surface, travaux envisagés, délais souhaités…"></textarea></label>
-      <label>Photo ou document (facultatif)<input type="file" name="attachment" accept=".jpg,.jpeg,.png,.webp,.pdf" aria-describedby="attachment-help"></label>
-      <small id="attachment-help">Un fichier JPG, PNG, WebP ou PDF, 5 Mo maximum. Ne joignez pas de pièce d’identité ni de document sensible.</small>
       <label class="consent"><input type="checkbox" name="consent" value="oui" required> <span>J’accepte que mes données soient traitées par EGAR pour répondre à ma demande. * <a href="./confidentialite.html">Politique de confidentialité</a></span></label>
       <button class="btn btn-gold submit-btn" type="submit">Envoyer ma demande <span>↗</span></button>
       <small class="form-note">Vos coordonnées sont utilisées uniquement pour traiter votre demande de devis.</small>
